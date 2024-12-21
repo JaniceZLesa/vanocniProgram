@@ -1,0 +1,78 @@
+/* Globální styl */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #495866, #5ac3f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Kontejner pro login */
+  #login-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Nadpis */
+  #login-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Pole pro zadání hesla */
+  #password-input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Tlačítko odeslání */
+  button {
+    background-color: #007bff85;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Chybová zpráva */
+  #error-message {
+    color: rgb(4, 35, 92);
+    margin-top: 15px;
+    font-size: 1.5em;
+  }
+  #video-container {
+    text-align: center;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 800px; /* Maximální šířka videa */
+    height: auto;
+  }  
+  #link-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 550px;
+  }
